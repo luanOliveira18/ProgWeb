@@ -1,0 +1,143 @@
+body {
+	
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-rows: var(--header-height) 1fr 50px;
+	grid-template-rows: var(--header-height) 1fr 50px;
+	-ms-grid-columns: 1fr var(--meny-width);
+	grid-template-columns: 1fr var(--meny-width);
+	grid-template-areas: "header header" "content nav" "footer footer"
+    
+}
+    header{
+        background-color:#271530;
+        height: 107px;
+        width: 1360px;
+		position:sticky;
+		display: block;
+		position: sticky;
+		font-family: sans-serif;
+    }
+    .txt{
+        width: 1000px;
+        position: relative;
+		right: 10px;
+		top: -50px;
+        height: 200px;
+		margin-left: 101px;
+		margin-right: 10px;
+		margin-top: 130px;
+		color: rgb(0, 0, 0);
+    }
+
+
+.home{
+	position: fixed;
+	top: var(--header-height);
+	right: 0px;
+    grid-area: nav;
+    margin-top: 1em;
+	margin-right: 35px;
+	padding-left: 0.6em;
+	width: var(--meny-width);
+	border-width: 0px;
+	border-left: #aaa0a0;
+	border-style: solid;
+	font-weight: 400
+}
+body{
+	background-color: #e0bcdd;
+}
+a, p, h1, h2, h3, h4, h5{
+	color: #271530;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: large;
+	font-weight: 300
+}
+
+p {
+	text-align: justify
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #271530;
+	margin-right: -149px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	height: 87px;
+}
+
+.topnav a {
+    float: right;
+    display: flex;
+    color: #cecece;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a img{
+    background-color: #bc6ff1;
+    color: rgb(250, 236, 236);
+    width: 100px;
+    height: 60px;
+}
+
+.topnav a:hover {
+    background-color: #bc6ff1;
+    color: rgb(250, 236, 236);
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+header {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#Smarca{
+margin-top: 200px;
+margin-left: -1040px;
+}
+#texto{
+	margin-top: 190px;
+	margin-left: 140px;
+	font-size: 17px;
+}
+#ImgSobrenos{
+	margin-left: -530px;
+}
+hr{
+	width: 33%;
+	height: 0px;
+	border-bottom: 3px solid #00008b;
+	margin-top: -370px;
+	margin-left: 139px;
+}
+
+#Sfale{
+	margin-top: 200px;
+	margin-left: -1040px;
+	}
+#texto{
+		margin-top: 190px;
+		margin-left: 140px;
+		font-size: 17px;
+	}
+#ImgFale{
+		margin-left: -530px;
+	}
